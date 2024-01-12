@@ -1,0 +1,62 @@
+body{
+    background: rgb(48, 46, 46);
+}
+.stopwatch{
+    width: 90%;
+    min-width: 600px;
+    /* border: 1px solid white; */
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0px;
+    margin-top: 10%;
+    margin-left: 45px;
+    font-size: 200%;
+    font-family: cursive;
+    
+    border: 2px solid #333;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+.stopwatch h1,i{
+    color: aliceblue;
+    
+}
+.stopwatch i:nth-child(2){
+    color: rgb(247, 179, 54);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.stopwatch i{
+    font-size: 56px; /* Default size for the icons */
+    margin: 0 10px;
+    cursor: pointer;
+}.stopwatch h1 {
+    font-size: 3em;
+   
+}
+
+.stopwatch i:hover {
+    transition: font-size .2s linear;
+    font-size: 60px;
+}
+.copyright{
+    width: 100%;
+       text-align: center;
+    background-color: #262626;
+    font-weight: 300;
+    margin-top: auto; /* This will push it to the bottom */
+    padding: px;
+    margin-top: 20px;
+    
+}
+
+
+@media only screen and (max-width:600px){
+    .stopwatch{
+        width: 50%;
+        min-width: 250px;
+        font-size: 100%;
+        margin-top: 150px;
+    }
+}
